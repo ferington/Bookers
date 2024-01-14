@@ -1,0 +1,17 @@
+<table>
+  <tr>
+    <th>本のタイトル：</th>
+    <td><%= @book.title %></td>
+  </tr>
+  <tr>
+    <th>感想：</th>
+    <td><%= @book.body %></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <th><%= link_to "Edit", edit_book_path %></th>
+    <th><%= link_to 'Back', books_path %></th>
+  </tr>
+</table>
